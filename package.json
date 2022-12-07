@@ -16,11 +16,9 @@
     "rollbar"
   ],
   "dependencies": {
-    "cycle": "^1.0.3",
     "rollbar": "^2.19.3",
     "winston-transport": "^4.4.0"
   },
-  "devDependencies": {},
   "main": "./lib/rollbar_transport",
   "scripts": {},
   "engines": {
