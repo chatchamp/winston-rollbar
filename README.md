@@ -7,8 +7,8 @@ A [rollbar](https://rollbar.com) transport for [winston](https://github.com/wins
 ## Installation
 
 ``` sh
-  $ npm install winston
-  $ npm install winston-transport-rollbar-3
+  $ yarn add winston
+  $ yarn add winston-transport-rollbar-3
 ```
 
 ## usage
