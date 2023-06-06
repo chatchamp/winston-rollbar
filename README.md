@@ -36,3 +36,9 @@ The Rollbar transport uses the universal [rollbar.js](https://github.com/rollbar
 * **rollbarConfig**:        Rollbar configuration ([more info](https://rollbar.com/docs/notifier/node_rollbar/#configuration-reference)) (mandatory, must contain rollbarAccessToken)
 * **level**:                Level of messages this transport should log. (default: **warn**).
 
+## Contribute
+
+### Test
+```bash
+yarn test
+```
