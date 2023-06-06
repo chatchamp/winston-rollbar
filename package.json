@@ -20,7 +20,9 @@
     "winston-transport": "^4.4.0"
   },
   "main": "./lib/rollbar_transport",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "engines": {
     "node": ">= 8.0.0"
   },
@@ -30,5 +32,8 @@
   "homepage": "https://github.com/zoellner/winston-rollbar#readme",
   "directories": {
     "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
