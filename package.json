@@ -1,7 +1,7 @@
 {
   "name": "winston-transport-rollbar-3",
   "description": "An updated rollbar transport for winston",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "author": "Andreas Zoellner",
   "license": "MIT",
   "repository": {
