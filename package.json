@@ -1,7 +1,7 @@
 {
   "name": "winston-transport-rollbar-3",
   "description": "An updated rollbar transport for winston",
-  "version": "3.2.3",
+  "version": "3.2.6",
   "author": "Andreas Zoellner",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,9 @@
     "winston-transport": "^4.4.0"
   },
   "main": "./lib/rollbar_transport",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "engines": {
     "node": ">= 8.0.0"
   },
@@ -30,5 +32,8 @@
   "homepage": "https://github.com/zoellner/winston-rollbar#readme",
   "directories": {
     "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
