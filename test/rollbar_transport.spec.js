@@ -70,5 +70,12 @@ describe('RollbarTransport', () => {
 
       expect(rollbarMock.error).toHaveBeenCalledWith(logData.message, { foo: 'bar' }, expect.any(Function));
     })
+
+    it('logs with log level info by default', async () => {
+      const logData = createLogData('unknown', 'test');
+      transport.log(logData, function() {});
+
+      expect(rollbarMock.info).toHaveBeenCalledWith(logData.message, {}, expect.any(Function));
+    })
   });
 });
